@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.n1{
+    margin-bottom: 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.n2{
+    background-color: rgb(255, 229, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.n2>#city{
+    padding: .5rem;
+    padding-left: 3rem;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    width: 50%;
+}
+#submit{
+    margin-left: 3rem;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    color: aliceblue;
+    background-color: rgb(247, 121, 121);
+    transition: .5s;
+}
+#submit:hover{
+    background-color: rgb(253, 82, 35);
+    letter-spacing: 1px;
+}
+#pic{
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    background-image: url(11.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.contain{
+    width: 100%;
+    padding: 2rem;
+}
+.c1{
+    background-color: rgb(246, 208, 176);
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    padding: 4rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.c2{
+    background-color: rgb(246, 208, 176);
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    padding: 3.4rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h4{
+    padding: 1rem 5rem;
+    background-color: rgb(255, 176, 154);
+    border-radius: 2rem;
+    letter-spacing: 1.2px;
+}
+#con{
+    gap: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cityname{
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    text-decoration: underline;
+    color: #824af4;
+}
+@media(max-width: 768px){
+    h1{
+        padding-top: 2rem;
+    }
+    #con{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .c1,.c2{
+        width: 80%;
+    }
+    #pic{
+        background-size: cover;
+        height: auto;
+        text-align: center;
+        background-image: url(11.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
